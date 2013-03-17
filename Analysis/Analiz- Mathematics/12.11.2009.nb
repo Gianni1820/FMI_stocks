@@ -1,0 +1,287 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.0'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      5064,        190]*)
+(*NotebookOutlinePosition[      5707,        212]*)
+(*  CellTagsIndexPosition[      5663,        208]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(D[x^n, x]\)], "Input"],
+
+Cell[BoxData[
+    \(n\ x\^\(\(-1\) + n\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(n\ x\^\(\(-1\) + n\)\), "\[IndentingNewLine]", 
+    \(D[x^n, \ {x, 3}]\)}], "Input"],
+
+Cell[BoxData[
+    \(n\ x\^\(\(-1\) + n\)\)], "Output"],
+
+Cell[BoxData[
+    \(\((\(-2\) + n)\)\ \((\(-1\) + n)\)\ n\ x\^\(\(-3\) + n\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(\((\(-2\) + n)\)\ \((\(-1\) + 
+          n)\)\ n\ x\^\(\(-3\) + n\)\), "\[IndentingNewLine]", 
+    \(D[log[x]^2, x]\)}], "Input"],
+
+Cell[BoxData[
+    \(\((\(-2\) + n)\)\ \((\(-1\) + n)\)\ n\ x\^\(\(-3\) + n\)\)], "Output"],
+
+Cell[BoxData[
+    RowBox[{\(General::"spell1"\), \(\(:\)\(\ \)\), "\<\"Possible spelling \
+error: new symbol name \\\"\\!\\(log\\)\\\" is similar to existing symbol \
+\\\"\\!\\(Log\\)\\\". \\!\\(\\*ButtonBox[\\\"More\[Ellipsis]\\\", \
+ButtonStyle->\\\"RefGuideLinkText\\\", ButtonFrame->None, \
+ButtonData:>\\\"General::spell1\\\"]\\)\"\>"}]], "Message"],
+
+Cell[BoxData[
+    RowBox[{"2", " ", \(log[x]\), " ", 
+      RowBox[{
+        SuperscriptBox["log", "\[Prime]",
+          MultilineFunction->None], "[", "x", "]"}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[x*E^\((\(-k\)*x)\), \ x]\)], "Input"],
+
+Cell[BoxData[
+    \(\[ExponentialE]\^\(\(-k\)\ x\) - \[ExponentialE]\^\(\(-k\)\ x\)\ k\ \
+x\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[\((x^2\  + 1)\)*\((x^2\  + \ 2)\)^\((1/3)\), x]\)], "Input"],
+
+Cell[BoxData[
+    \(\(2\ x\ \((1 + x\^2)\)\)\/\(3\ \((2 + x\^2)\)\^\(2/3\)\) + 
+      2\ x\ \((2 + x\^2)\)\^\(1/3\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[Sin[Sin[Sin\ x]], \ x]\)], "Input"],
+
+Cell[BoxData[
+    \(Sin\ Cos[Sin\ x]\ Cos[Sin[Sin\ x]]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[Sin\ [E^\((Sin[x]^2)\)]^2]\)], "Input"],
+
+Cell[BoxData[
+    \(Sin[\[ExponentialE]\^\(Sin[x]\^2\)]\^2\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[\((1 + 4  t)\)^5*\((3 + t + t^2)\)^8, \ t]\)], "Input"],
+
+Cell[BoxData[
+    \(8\ \((1 + 2\ t)\)\ \((1 + 4\ t)\)\^5\ \((3 + t + t\^2)\)\^7 + 
+      20\ \((1 + 4\ t)\)\^4\ \((3 + t + t\^2)\)\^8\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[E^\((x*Cos[2*t])\), \ x]\)], "Input"],
+
+Cell[BoxData[
+    \(\[ExponentialE]\^\(x\ Cos[2\ t]\)\ Cos[2\ t]\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[3*x*E^\((7*x)\), \ x]\)], "Input"],
+
+Cell[BoxData[
+    \(3\ \[ExponentialE]\^\(7\ x\) + 
+      21\ \[ExponentialE]\^\(7\ x\)\ x\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(D[x^\((1/2)\)*Cos[x^\((1/2)\)], x]\)], "Input"],
+
+Cell[BoxData[
+    \(Cos[\@x]\/\(2\ \@x\) - Sin[\@x]\/2\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+    \(Cos[\@x]\/\(2\ \@x\) - Sin[\@x]\/2\), "\[IndentingNewLine]", 
+    \(D[Log[Sin[x]]\  - \ 1/2*sin[x]^2, x]\)}], "Input"],
+
+Cell[BoxData[
+    \(Cos[\@x]\/\(2\ \@x\) - Sin[\@x]\/2\)], "Output"],
+
+Cell[BoxData[
+    RowBox[{\(Cot[x]\), "-", 
+      RowBox[{\(sin[x]\), " ", 
+        RowBox[{
+          SuperscriptBox["sin", "\[Prime]",
+            MultilineFunction->None], "[", "x", "]"}]}]}]], "Output"]
+}, Open  ]]
+},
+FrontEndVersion->"5.0 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 693}},
+WindowSize->{496, 535},
+WindowMargins->{{0, Automatic}, {Automatic, 0}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 42, 1, 30, "Input"],
+Cell[1821, 56, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[1912, 62, 105, 2, 50, "Input"],
+Cell[2020, 66, 54, 1, 29, "Output"],
+Cell[2077, 69, 90, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2204, 75, 150, 3, 50, "Input"],
+Cell[2357, 80, 90, 1, 29, "Output"],
+Cell[2450, 83, 354, 5, 52, "Message"],
+Cell[2807, 90, 176, 4, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3020, 99, 59, 1, 30, "Input"],
+Cell[3082, 102, 105, 2, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3224, 109, 82, 1, 30, "Input"],
+Cell[3309, 112, 129, 2, 48, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3475, 119, 57, 1, 30, "Input"],
+Cell[3535, 122, 68, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3640, 128, 61, 1, 30, "Input"],
+Cell[3704, 131, 72, 1, 37, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3813, 137, 77, 1, 30, "Input"],
+Cell[3893, 140, 147, 2, 30, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4077, 147, 59, 1, 30, "Input"],
+Cell[4139, 150, 78, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4254, 156, 56, 1, 30, "Input"],
+Cell[4313, 159, 104, 2, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4454, 166, 67, 1, 30, "Input"],
+Cell[4524, 169, 68, 1, 53, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4629, 175, 139, 2, 79, "Input"],
+Cell[4771, 179, 68, 1, 53, "Output"],
+Cell[4842, 182, 206, 5, 29, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+
